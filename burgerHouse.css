@@ -1,0 +1,226 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 98vw;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(135deg,#5D4037 0%,#8D6E63 25%,#A1887F 50%,
+    #D7CCC8 75%,#5D4037 100%);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: square;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+ h2 {
+    text-align: center;
+    font-family: cursive;
+    background: linear-gradient(to bottom right,orange,gold,pink);
+    font-size: 2rem;
+    margin: 1rem;
+}
+img {
+    width:70vw;
+    height: 70vw;
+    padding: 1rem 1.5rem;
+}
+.menu-catagories{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu-catagories button{
+    background: linear-gradient(45deg,#ff6b6b,#4ecdc4);
+    color: hsl(0, 100%, 9%);
+    border: none;
+    margin: 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+.menu-catagories button:hover {
+    cursor: pointer;
+    color: hsl(200, 60%, 92%);
+    background: linear-gradient(45deg,#4ecdc4,#ff6b6b);
+}
+h3 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin: 1rem;
+    background: linear-gradient(135deg,black,white,gold);
+    color: transparent;
+    background-clip: text;
+   /*  background-color: linear-gradient(rgba(0,0,0,0.5),rgba((0,0,0,0.3),rgba(0,0,0,0.5)); */
+}
+p {
+    margin: 10px;
+    font-family: cursive;
+}
+
+.menu-item {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px 15px;
+    padding: 10px;
+    min-width: 250PX;
+    transition: all 0.5s ease;
+    min-height: 350px;
+}
+
+.menu-item img {
+    width: 90%;
+    height: 60%;
+}
+.burgers {
+    display: flex;
+    width: 95vw;
+    overflow-x: scroll;
+}
+#fata,#fataSpecial ,#fataWithFish ,#tibsi, #ful,#juice
+{
+display: flex;
+width: 95vw;
+overflow-x: scroll;
+}
+.fatapic{
+    width: 100%;
+    height: 50%;
+    padding: 0.15rem;
+}
+
+    /* border: 2px solid red; */
+   /*  min-width:200px; */
+
+.menu-item button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 15px;
+}
+.menu-item:hover {
+  background: linear-gradient(180deg,#ff6b6b,#4ecdc4,#45b7d1,#a8e6cf);
+  color: black;
+  transform: translateY(-5px);
+  box-shadow: 2px 2px 4px #000000;
+}
+.menu-item:hover > button {
+  background:black;
+  color: white;
+  scale: 1.02;
+}
+
+
+.menu-item:hover > img {
+    border-radius: 30%;
+    border: 1px solid black;
+}
+
+.menu-item button:hover {
+    background: #218838;
+}
+.fata,.tbsi ,.ful ,.juice{
+    display:none;
+}
+.testimonialDives {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 150px;
+    overflow: auto;
+}
+.testimonialDiv {
+    width: 50%;
+    min-width: 200px;
+    border: 2px solid grey;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+.testimonialComment {
+    border: 1px solid grey;
+}
+/* .testimonialDiv::first-child {
+    text-align: center;
+} */
+.testimonialAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.testimonialImages {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-left: -30px;
+}
+.questionDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0.2rem 3rem;
+    margin: 0.3rem 2rem;
+    border: 1px solid grey;
+}
+.downIntity {
+    display: inline-block;
+    transform: rotate(90deg);    
+}
+.downIntity:hover {
+    color: rgb(37, 67, 187);
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.answerDivOne, .answerDivThree ,.answerDivTwo{
+    transition: all 0.8s ease;
+    display: none;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 4px #000000;
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #333;
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+}

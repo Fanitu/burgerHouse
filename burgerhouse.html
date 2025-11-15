@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger House</title>
+    <link rel="stylesheet" href="burgerHouse.css">
+</head>
+<body>
+    <header>
+        <h1>Redsun Special Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact Us</a></li>                
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        <article id="hero">
+            <h2>Where tasty And Amazing food found!</h2>
+            <img src="./img/tibsi.jpeg" alt="">
+        </article>
+
+        <article id="menu">
+            <h2>Menu</h2>
+            <section>
+            <div class="menu-catagories">
+                <button onclick="menuDisplay('fata')">Fata</button>
+                <button onclick="menuDisplay('tbsi')">Tibsi</button>
+                <button onclick="menuDisplay('ful')">Ful</button>
+                <button onclick="menuDisplay('juice')">Juice</button>
+                <button onclick="menuDisplay('Kcha Ftft')">Kcha Ftft</button>
+            </div>
+            </section>
+            <section class="menuDisplay">
+                <div class="burgers">
+                    <div class="menu-item">
+                        <img src="./img/apple.webp" alt="">
+                        <p>Juicy beef patty</p>
+                        <p>price: 100ETB</p>
+                        <button onclick="order('Cheeseburger')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./img/apple.webp" alt="">
+                        <p>Delicious burger topped</p>
+                        <p>price: 100ETB</p>
+                        <button onclick="order('Bacon Burger')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./img/apple.webp" alt="">
+                        <p>fresh vegetables </p>
+                        <p>price: 100ETB</p>
+                        <button onclick="order('Veggie Burger')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./img/apple.webp" alt="">
+                        <p>Juicy beef patty</p>
+                        <p>price: 100ETB</p>
+                        <button onclick="order('Cheeseburger')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./img/apple.webp" alt="">
+                        <p>Delicious crispy bacon.</p>
+                        <p>price: 100ETB</p>
+                        <button onclick="order('Bacon Burger')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./img/apple.webp" >
+                        <p>fresh vegetables </p>
+                        <p>price: 100ETB</p>
+                        <button onclick="order('Veggie Burger')">Add To Cart</button>
+                    </div>
+
+                </div>          
+                <br>
+                <hr>
+                <div class="fata">
+                    <div>
+                        <h3>Fata Normal</h3>
+                    </div>
+                    <div id="fata">
+                        <div class="menu-item">
+                            <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="10vw" height="30vw">
+                            <p>fata normal 2</p>
+                            <p>price: 100ETB</p>
+                            <button onclick="order('fata')">Add To Cart</button>
+                        </div>
+                        <div class="menu-item">
+                                <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                            <p>fata normal 3</p>
+                            <p>price: 130ETB</p>
+                            <button onclick="order('fata')">Add To Cart</button>
+                        </div>
+                        <div class="menu-item">
+                                <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                            <p>fata normal 4</p>
+                            <p>Price: 160ETB</p>
+                            <button onclick="order('fata')">Add To Cart</button>
+                        </div>
+                        <div class="menu-item">
+                            <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="10vw" height="30vw">
+                            <p>fata normal 5</p>
+                            <p>price: 200ETB</p>
+                            <button onclick="order('fata')">Add To Cart</button>
+                        </div>
+                        <div class="menu-item">
+                                <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                            <p>fata normal 6</p>
+                            <p>price: 230ETB</p>
+                            <button onclick="order('fata')">Add To Cart</button>
+                        </div>
+                        <div class="menu-item">
+                                <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                            <p>fata normal 7</p>
+                            <p>Price: 260ETB</p>
+                            <button onclick="order('fata')">Add To Cart</button>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <div>
+                        <div>
+                            <h3>Fata Special</h3>
+                        </div>
+                        <div id="fataSpecial">
+                            <div class="menu-item">
+                                <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="10vw" height="30vw">
+                                <p>Fata Special 2</p>
+                                <p>price: 150ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                    <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                                <p>Fata Special 3</p>
+                                <p>price: 180ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                    <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                                <p>Fata Special 4</p>
+                                <p>Price: 200ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="10vw" height="30vw">
+                                <p>Fata Special 5</p>
+                                <p>price: 230ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                    <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                                <p>Fata Special 6</p>
+                                <p>price: 250ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                    <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                                <p>Fata Special 7</p>
+                                <p>Price: 280ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <br>
+                        <hr>
+                        <div>
+                            <h3>Fata With Fish</h3>
+                       </div>
+                        <div id="fataWithFish">
+                            <div class="menu-item">
+                                <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="10vw" height="30vw">
+                                <p>Fata with fish 2 </p>
+                                <p>price: 130ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                    <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                                <p>Fata with fish 3</p>
+                                <p>price: 150ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                    <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                                <p>Fata with fish 4</p>
+                                <p>Price: 170ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="10vw" height="30vw">
+                                <p>Fata with fish 5</p>
+                                <p>price: 210ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                    <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                                <p>Fata with fish 6</p>
+                                <p>price: 250ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                            <div class="menu-item">
+                                    <img class="fatapic" src="img/OIP (1).jpeg" alt="fata pic" width="50px" height="50px">
+                                <p>Fata with fish 7</p>
+                                <p>Price: 280ETB</p>
+                                <button onclick="order('fata')">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="tbsi">
+                <div>
+                    <h3>Normal Tibsi</h3>
+                </div>
+                <div id="tibsi">
+                    <div class="menu-item">
+                        <img class="fatapic" src="img/OIP (2).jpeg" alt="fata pic" width="50px" height="30vw">
+                        <p>Normal Tbsi</p>
+                        <p>price: 280ETB</p>
+                        <button onclick="order('fata')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/OIP (2).jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>Special Tbsi</p>
+                        <p>price: 330ETB</p>
+                        <button onclick="order('fata')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/OIP (2).jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>Tbsi Frfr</p>
+                        <p>Price: 260ETB</p>
+                        <button onclick="order('fata')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img class="fatapic" src="img/OIP (2).jpeg" alt="fata pic" width="10vw" height="30vw">
+                        <p>Quanta Tibsi</p>
+                        <p>price: 300ETB</p>
+                        <button onclick="order('fata')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/OIP (2).jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>Tbsi zilzil</p>
+                        <p>price: 230ETB</p>
+                        <button onclick="order('fata')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/OIP (2).jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>fktfo</p>
+                        <p>Price: 560ETB</p>
+                        <button onclick="order('fata')">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ful">
+                <div>
+                    <h3>Ful</h3>
+                </div>
+                <div id="ful">
+                    <div class="menu-item">
+                        <img class="fatapic" src="img/OIP.jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>Ful normal</p>
+                        <p>price: 120ETB</p>
+                        <button onclick="order('ful')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/OIP.jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>Ful meselah</p>
+                        <p>price: 150ETB</p>
+                        <button onclick="order('fut')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/OIP.jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>Ful Avocado</p>
+                        <p>Price: 160ETB</p>
+                        <button onclick="order('ful')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img class="fatapic" src="img/OIP.jpeg" alt="fata pic" width="10vw" height="30vw">
+                        <p>Ful special</p>
+                        <p>price: 200ETB</p>
+                        <button onclick="order('ful')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/OIP.jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>Ful ms Butter</p>
+                        <p>price: 230ETB</p>
+                        <button onclick="order('fut')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/OIP.jpeg" alt="fata pic" width="50px" height="50px">
+                        <p>Ful Redsun Special</p>
+                        <p>Price: 230ETB</p>
+                        <button onclick="order('ful')">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="juice">
+                <div>
+                    <h3>Juice</h3>
+                </div>
+                <div id="juice">
+                    <div class="menu-item">
+                        <img class="fatapic" src="img/OIP.webp" alt="fata pic" width="10vw" height="30vw">
+                        <p>Avocado Juice</p>
+                        <p>price: 120ETB</p>
+                        <button onclick="order('avocado')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/download.webp" alt="fata pic" width="50px" height="50px">
+                        <p>Papayo Juice</p>
+                        <p>price: 120ETB</p>
+                        <button onclick="order('Papaya')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/apple.webp" alt="fata pic" width="50px" height="50px">
+                        <p>Apple Juice</p>
+                        <p>Price: 160ETB</p>
+                        <button onclick="order('apple')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img class="fatapic" src="img/mango.webp" alt="fata pic" width="10vw" height="30vw">
+                        <p>Mango Juice</p>
+                        <p>price: 200ETB</p>
+                        <button onclick="order('mango')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/guava.webp" alt="fata pic" width="50px" height="50px">
+                        <p>Guava Juice</p>
+                        <p>price: 180ETB</p>
+                        <button onclick="order('Guava')">Add To Cart</button>
+                    </div>
+                    <div class="menu-item">
+                            <img class="fatapic" src="img/strawberry.webp" alt="fata pic" width="50px" height="50px">
+                        <p>Strawberry Juice</p>
+                        <p>Price: 230ETB</p>
+                        <button onclick="order('Strawbery')">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </article>
+
+        <article id="testimonial">
+            <h2>
+                Better hear from our customers
+            </h2>
+            <section class="testimonialDives">
+                <div class="testimonialDiv">
+                    <div class="testimonialComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde exercitationem perspiciatis perferendis reiciend?</div>
+                    <div class="testimonialAccount">
+                        <img class="testimonialImages" src="./img/OIP (1).jpeg" alt="">
+                        <P>ZEMACH BEKELE</P>
+                    </div>
+                </div>
+                <div class="testimonialDiv">
+                    <div class="testimonialComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde exercitationem perspiciatis perferendis reiciend?</div>
+                    <div class="testimonialAccount">
+                        <img class="testimonialImages" src="./img/OIP (1).jpeg" alt="">
+                        <P>MILKIAS ARAYA</P>
+                    </div>
+                </div>
+                <div class="testimonialDiv">
+                    <div class="testimonialComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde exercitationem perspiciatis perferendis reiciend?</div>
+                    <div class="testimonialAccount">
+                        <img class="testimonialImages" src="./img/OIP (1).jpeg" alt="">
+                        <P>ASHENAFI GIETNET</P>
+                    </div>
+                </div>
+                <div class="testimonialDiv">
+                    <div class="testimonialComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde exercitationem perspiciatis perferendis reiciend?</div>
+                    <div class="testimonialAccount">
+                        <img class="testimonialImages" src="./img/OIP (1).jpeg" alt="">
+                        <P>SIMON TEKLE</P>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article id="faq">
+            <h2>
+                FAQ
+            </h2>
+            <div class="faqDive">
+                <div class="questionDiv">
+                        <p>Where is Your Location?</p><button class="downIntity" onclick="getAnswer('One')">&gt;</button>
+                </div>
+                <div class="answerDivOne">
+                    Well our location is Lafto Behind Miki-Cafe near Bus Station.
+                </div>
+                <div class="questionDiv">
+                        <p>Where is Your Location?</p><button class="downIntity" onclick="getAnswer('Two')">&gt;</button>
+                </div>
+                <div class="answerDivTwo">
+                    Well our location is Lafto Behind Miki-Cafe near Bus Station.
+                </div>
+                <div class="questionDiv">
+                        <p>Where is Your Location?</p><button class="downIntity" onclick="getAnswer('Three')">&gt;</button>
+                </div>
+                <div class="answerDivThree">
+                    Well our location is Lafto Behind Miki-Cafe near Bus Station.
+                </div>
+
+            </div>
+        </article>
+        <article id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm" onsubmit="submitForm(event)">
+                <fieldset>       
+                    <legend>Your form</legend>         
+                <p>
+                    <label for="name">Your Full Name:</label>
+                    <input type="text" placeholder="Your Name" required>
+                </p>
+                <p>
+                    <label for="email">Your email:</label>
+                    <input type="email" placeholder="Your Email" required>
+                </p>
+                <p>
+                    <label for="email">Your Phone:</label>
+                    <input type="tel" placeholder="Your Phone" required>
+                </p>
+                <p>
+                  <textarea placeholder="Your Message" required></textarea>
+                </p>
+                <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Burger House. All rights reserved.</p>
+    </footer>
+
+    <script src="burgrHouse.js"></script>
+</body>
+</html>
