@@ -403,7 +403,7 @@
             </div>
             </section>
         </article>
-
+         <hr>
         <article id="testimonial">
             <h2>
                 Better hear from our customers
@@ -439,62 +439,180 @@
                 </div>
             </section>
         </article>
-
-        <article id="faq">
-            <h2>
-                FAQ
-            </h2>
-            <div class="faqDive">
-                <div class="questionDiv">
-                        <p>Where is Your Location?</p><button class="downIntity" onclick="getAnswer('One')">&gt;</button>
+        <hr>
+        <hr>
+        <article id="faq" class="container">
+        <div class="header">
+            <h1>Burger House FAQs</h1>
+            <p>Find answers to the most common questions about our delicious burgers and services</p>
+        </div>
+        
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Where is Burger House located?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
                 </div>
-                <div class="answerDivOne">
-                    Well our location is Lafto Behind Miki-Cafe near Bus Station.
+                <div class="faq-answer">
+                    <p>We're located at <span class="highlight">123 Tasty Avenue, Food District, Flavor City</span>. We're right in the heart of the city, easily accessible from all major areas. We also have free parking available for our dine-in customers!</p>
                 </div>
-                <div class="questionDiv">
-                        <p>Where is Your Location?</p><button class="downIntity" onclick="getAnswer('Two')">&gt;</button>
-                </div>
-                <div class="answerDivTwo">
-                    Well our location is Lafto Behind Miki-Cafe near Bus Station.
-                </div>
-                <div class="questionDiv">
-                        <p>Where is Your Location?</p><button class="downIntity" onclick="getAnswer('Three')">&gt;</button>
-                </div>
-                <div class="answerDivThree">
-                    Well our location is Lafto Behind Miki-Cafe near Bus Station.
-                </div>
-
             </div>
-        </article>
-        <article id="contact">
-            <h2>Contact Us</h2>
-            <form id="contactForm" onsubmit="submitForm(event)">
-                <fieldset>       
-                    <legend>Your form</legend>         
-                <p>
-                    <label for="name">Your Full Name:</label>
-                    <input type="text" placeholder="Your Name" required>
-                </p>
-                <p>
-                    <label for="email">Your email:</label>
-                    <input type="email" placeholder="Your Email" required>
-                </p>
-                <p>
-                    <label for="email">Your Phone:</label>
-                    <input type="tel" placeholder="Your Phone" required>
-                </p>
-                <p>
-                  <textarea placeholder="Your Message" required></textarea>
-                </p>
-                <button type="submit">Send Message</button>
-                </fieldset>
-            </form>
-        </article>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How long does delivery take?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Our standard delivery time is <span class="highlight">25-40 minutes</span> depending on your location and current order volume. During peak hours, it might take up to 50 minutes. We always strive to deliver your food hot and fresh!</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you have vegetarian options?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! We offer <span class="highlight">3 delicious vegetarian burger options</span> including our famous Portobello Mushroom Burger and Spicy Black Bean Burger. All our vegetarian options can be customized with a variety of fresh toppings.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What are your operating hours?</h3>
+                    <div class="faq-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>We're open <span class="highlight">Monday to Saturday from 11:00 AM to 11:00 PM</span>, and <span class="highlight">Sundays from 12:00 PM to 10:00 PM</span>. Our kitchen stops taking orders 30 minutes before closing time. Holiday hours may vary.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-note">
+            <p>Still have questions? <a href="contact.html">Contact us directly</a> and we'll be happy to help!</p>
+        </div>
+    </article>
+
+
+        <article id="contact" class="contact-container">
+        <div class="contact-header">
+            <h1>Get in Touch</h1>
+            <p>Have questions about our mouth-watering Foods or want to place a large order? We'd love to hear from you! Send us a message and we'll respond as soon as possible.</p>
+        </div>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-text">
+                        <h3>Our Location</h3>
+                        <p>123 Nfas Silk Lafto, Behind Miki cafe </p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="info-text">
+                        <h3>Phone Number</h3>
+                        <p>+2 (519) 32743447-Redsun Fast Food</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-text">
+                        <h3>Email Address</h3>
+                        <p>info@redsunFastfood.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="info-text">
+                        <h3>Opening Hours</h3>
+                        <p>Monday - Saturday: 8:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+                
+                <!-- <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div> -->
+            </div>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" class="form-control" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="catering">Catering Services</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" class="form-control" placeholder="Tell us how we can help you..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                
+                <div class="burger-decoration">
+                    <i class="fas fa-hamburger"></i>
+                </div>
+            </div>
+        </div>
+    </article>
+
     </main>
 
-    <footer>
+    <!-- <footer>
         <p>&copy; 2023 Burger House. All rights reserved.</p>
-    </footer>
+    </footer> -->
 
     <script src="burgrHouse.js"></script>
 </body>
