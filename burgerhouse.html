@@ -7,25 +7,84 @@
     <link rel="stylesheet" href="burgerHouse.css">
 </head>
 <body>
-    <header>
-        <h1>Redsun Special Restaurant</h1>
-        <nav>
-            <ul>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contact">Contact Us</a></li>                
-            </ul>
-        </nav>
+   <header class="header">
+        <div class="container">
+            <div class="restaurant-name">
+                <h1>Redsun Special Restaurant</h1>
+            </div>
+            <div class="nav-container">
+                <nav class="nav-menu">
+                    <div class="nav-item">
+                        <a href="#menu" class="nav-link active">Menu</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#testimonial" class="nav-link">Testimonials</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#faq" class="nav-link">FAQ</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
-    
+
     <main>
 
-        <article id="hero">
-            <h2>Where tasty And Amazing food found!</h2>
-            <img src="./img/tibsi.jpeg" alt="">
-        </article>
-
+     <article class="hero-section">
+        <!-- Slide 1 -->
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+            <div class="slide-content">
+                <h1>You have to try our recipe then you will know how amazing we are</h1>
+                <p>Experience the finest culinary creations made with passion and the freshest ingredients</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');">
+            <div class="slide-content">
+                <h1>Exquisite Dining Experience</h1>
+                <p>Join us for an unforgettable evening of fine dining and exceptional service</p>
+                <a href="#" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+            <div class="slide-content">
+                <h1>Fresh Ingredients, Exceptional Taste</h1>
+                <p>Our chefs source only the finest ingredients to create memorable dishes</p>
+                <a href="#" class="btn">View Menu</a>
+            </div>
+        </div>
+        
+        <!-- Slide 4 -->
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');">
+            <div class="slide-content">
+                <h1>Visit Our Beautiful Location</h1>
+                <p>Nestled in the heart of the city, our restaurant offers a perfect ambiance for any occasion</p>
+                <a href="#" class="btn btn-secondary">Our Location</a>
+            </div>
+        </div>
+        
+        <!-- Slider Controls -->
+        <div class="slide-controls">
+            <button class="control-btn prev-btn">&lt;</i></button>
+            <button class="control-btn next-btn">&gt;</i></button>
+        </div>
+        
+        <!-- Slider Navigation Dots -->
+        <div class="slider-nav">
+            <span class="slider-dot active" data-slide="0"></span>
+            <span class="slider-dot" data-slide="1"></span>
+            <span class="slider-dot" data-slide="2"></span>
+            <span class="slider-dot" data-slide="3"></span>
+        </div>
+    </article>
+    <hr/>
         <article id="menu">
             <h2>Menu</h2>
             <section>
