@@ -1,4 +1,4 @@
-# ☕ The Coffee Corner
+# ☕ Redsun Burger and FastFood
 
 A responsive and modern website for "The Redsun Fastfood," a cozy cafe house. This website showcases the Fastfood's menu, ambiance, location, and contact information, providing an engaging online presence for customers.
 
