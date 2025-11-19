@@ -135,7 +135,7 @@ body {
         }
 
 main {
-    padding: 20px;
+    padding: 0px;
 }
 
  .hero-section {
@@ -335,7 +335,7 @@ main {
     background: linear-gradient(45deg,#ff6b6b,#4ecdc4);
     color: hsl(0, 100%, 9%);
     border: none;
-    margin: 0px;
+    margin: 0px 5px;
     padding: 10px 15px;
     border-radius: 10px;
     font-size: 1.05rem;
@@ -678,7 +678,7 @@ overflow-x: scroll;
             }
             
             .header {
-                margin-bottom: 30px;
+                margin-bottom: 0px;
                 padding: 5px 10px;
             }
             
